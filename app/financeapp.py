@@ -55,3 +55,8 @@ class sheet(finance):
 
         pickle.dump(self.dataset,
                     open('bup/'+str(datetime.date.today())+'.p', 'wb'))
+    def Prrint(self):
+        for key in self.sheet:
+            print(key)
+            for key1 in self.sheet[key]:
+                print key1 + " " + str(self.sheet[key][key1])

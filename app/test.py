@@ -6,4 +6,7 @@ def add(thing, amount):
 
     x.add(thing, amount)
 
+
+    x.Prrint()
+
     print(x.tot())
